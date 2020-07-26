@@ -1,6 +1,7 @@
 # Django3-DRF-cookiecutter
 
 
+
 This provides a cookiecutter template for a Django API project with DRF.
 
 **Featuring**
@@ -15,25 +16,30 @@ This provides a cookiecutter template for a Django API project with DRF.
 
 - then 
 
-> $ cookiecutter https://github.com/GauravBole/Django3-DRF-cookiecutter.git
+`$ cookiecutter https://github.com/GauravBole/Django3-DRF-cookiecutter.git`
 
-> project_name [project_name]: **YOUR PROJECT NAME**
+`project_name [project_name]: **YOUR PROJECT NAME**`
 
 - For Set up
 
->  cd project_name
-> make install
+`cd project_name`
+
+`make install `
 
 - For migrations and create default admin user
-> make setup
+
+` make setup `
 
 - For run test cases
->make test
+
+` make test `
 
 - For Drop DB
-> make drop_db
+
+` make drop_db `
 
 - For start server
-> make serve
+
+` make serve `
 
  
